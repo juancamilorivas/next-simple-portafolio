@@ -5,166 +5,109 @@ exports.id = 820;
 exports.ids = [820];
 exports.modules = {
 
-/***/ 157:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(225);
+/***/ 345:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
-const _error = (statusCode)=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-        children: statusCode ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-            className: "text-center",
-            children: [
-                "Could not load your page: Status code ",
-                statusCode
-            ]
-        }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-            children: "Could not get this page"
-        })
-    });
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+exports["default"] = void 0;
+var _react = _interopRequireDefault(__webpack_require__(689));
+var _head = _interopRequireDefault(__webpack_require__(957));
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+const statusCodes = {
+    400: "Bad Request",
+    404: "This page could not be found",
+    405: "Method Not Allowed",
+    500: "Internal Server Error"
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_error);
+function _getInitialProps({ res , err  }) {
+    const statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
+    return {
+        statusCode
+    };
+}
+class Error extends _react.default.Component {
+    render() {
+        const { statusCode  } = this.props;
+        const title = this.props.title || statusCodes[statusCode] || "An unexpected error has occurred";
+        return /*#__PURE__*/ _react.default.createElement("div", {
+            style: styles.error
+        }, /*#__PURE__*/ _react.default.createElement(_head.default, null, /*#__PURE__*/ _react.default.createElement("title", null, statusCode ? `${statusCode}: ${title}` : "Application error: a client-side exception has occurred")), /*#__PURE__*/ _react.default.createElement("div", null, /*#__PURE__*/ _react.default.createElement("style", {
+            dangerouslySetInnerHTML: {
+                __html: `
+                body { margin: 0; color: #000; background: #fff; }
+                .next-error-h1 {
+                  border-right: 1px solid rgba(0, 0, 0, .3);
+                }
+                @media (prefers-color-scheme: dark) {
+                  body { color: #fff; background: #000; }
+                  .next-error-h1 {
+                    border-right: 1px solid rgba(255, 255, 255, .3);
+                  }
+                }`
+            }
+        }), statusCode ? /*#__PURE__*/ _react.default.createElement("h1", {
+            className: "next-error-h1",
+            style: styles.h1
+        }, statusCode) : null, /*#__PURE__*/ _react.default.createElement("div", {
+            style: styles.desc
+        }, /*#__PURE__*/ _react.default.createElement("h2", {
+            style: styles.h2
+        }, this.props.title || statusCode ? title : /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, "Application error: a client-side exception has occurred (see the browser console for more information)"), "."))));
+    }
+}
+exports["default"] = Error;
+Error.displayName = "ErrorPage";
+Error.getInitialProps = _getInitialProps;
+Error.origGetInitialProps = _getInitialProps;
+const styles = {
+    error: {
+        fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+        height: "100vh",
+        textAlign: "center",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center"
+    },
+    desc: {
+        display: "inline-block",
+        textAlign: "left",
+        lineHeight: "49px",
+        height: "49px",
+        verticalAlign: "middle"
+    },
+    h1: {
+        display: "inline-block",
+        margin: 0,
+        marginRight: "20px",
+        padding: "10px 23px 10px 0",
+        fontSize: "24px",
+        fontWeight: 500,
+        verticalAlign: "top"
+    },
+    h2: {
+        fontSize: "14px",
+        fontWeight: "normal",
+        lineHeight: "inherit",
+        margin: 0,
+        padding: 0
+    }
+}; //# sourceMappingURL=_error.js.map
 
 
 /***/ }),
 
-/***/ 281:
+/***/ 957:
 /***/ ((module) => {
 
-module.exports = require("classnames");
-
-/***/ }),
-
-/***/ 796:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/head-manager-context.js");
-
-/***/ }),
-
-/***/ 14:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
-
-/***/ }),
-
-/***/ 524:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/is-plain-object.js");
-
-/***/ }),
-
-/***/ 20:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/mitt.js");
-
-/***/ }),
-
-/***/ 406:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
-
-/***/ }),
-
-/***/ 964:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router-context.js");
-
-/***/ }),
-
-/***/ 938:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
-
-/***/ }),
-
-/***/ 565:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
-
-/***/ }),
-
-/***/ 365:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-middleware-regex.js");
-
-/***/ }),
-
-/***/ 428:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
-
-/***/ }),
-
-/***/ 292:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
-
-/***/ }),
-
-/***/ 979:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
-
-/***/ }),
-
-/***/ 52:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
-
-/***/ }),
-
-/***/ 226:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
-
-/***/ }),
-
-/***/ 422:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
-
-/***/ }),
-
-/***/ 232:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 853:
-/***/ ((module) => {
-
-module.exports = require("next/router");
-
-/***/ }),
-
-/***/ 808:
-/***/ ((module) => {
-
-module.exports = require("nprogress");
+module.exports = require("next/dist/shared/lib/head.js");
 
 /***/ }),
 
@@ -172,13 +115,6 @@ module.exports = require("nprogress");
 /***/ ((module) => {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ 997:
-/***/ ((module) => {
-
-module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -189,7 +125,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [505,664,225], () => (__webpack_exec__(157)));
+var __webpack_exports__ = (__webpack_exec__(345));
 module.exports = __webpack_exports__;
 
 })();
