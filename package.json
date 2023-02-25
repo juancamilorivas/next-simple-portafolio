@@ -2,10 +2,10 @@
   "name": "next-simple-portafolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "predeploy": "next build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
