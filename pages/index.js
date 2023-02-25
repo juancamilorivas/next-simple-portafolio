@@ -94,7 +94,7 @@ const Index = () => (
               <h1 className="text-center text-light">Portafolio</h1>
             </div>
             {projects.map(({ name, description, image, url }, i) => (
-             <Link key={i} href={`${url}`}>
+             <Link key={i} href={`${url}`} legacyBehavior>
                 <div className="col-md-4 p-2 " >
                   <div className="card h-100">
                     <div className="overflow">
@@ -113,7 +113,7 @@ const Index = () => (
             ))}
           </div>
           <div className="text-center mt-4">
-            <Link href="https://github.com/juancamilorivas?tab=repositories">
+            <Link href="https://github.com/juancamilorivas?tab=repositories" legacyBehavior>
               <a className="btn btn-outline-light">More projects</a>
             </Link>
           </div>

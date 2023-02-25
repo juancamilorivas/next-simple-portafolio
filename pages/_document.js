@@ -6,7 +6,7 @@ export default function Document() {
     <Html>
       <Head>
         <meta content="Camilo's Portafolio" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css" legacyBehavior/>
       </Head>
       <body>
         <Main />

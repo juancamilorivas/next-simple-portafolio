@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
     <div className="container">
-     <Link href="/">
+     <Link href="/" legacyBehavior>
      <a className="navbar-brand" >
         Start
       </a>
@@ -24,7 +24,7 @@ const Navbar = () => (
           <li className="nav-item">
           </li>
           <li className="nav-item">
-            <Link href="https://github.com/juancamilorivas">
+            <Link href="https://github.com/juancamilorivas" legacyBehavior>
               <a className="nav-link" >
                 GitHub
               </a>
