@@ -27,7 +27,8 @@ function Document() {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "stylesheet",
-                        href: "https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"
+                        href: "https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css",
+                        legacyBehavior: true
                     })
                 ]
             }),
