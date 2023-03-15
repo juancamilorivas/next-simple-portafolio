@@ -98,7 +98,7 @@ const Index = () => (
                 <div className="col-md-4 p-2 " >
                   <div className="card h-100">
                     <div className="overflow">
-                      <img src={`/${image}`} alt="Pokemon app" className="card-img-top" />
+                      <img src={`${image}`} alt="Pokemon app" className="card-img-top" />
                     </div>
                     <div className="card-body">
                       <h3 className="font-weight-normal text-secondary">
