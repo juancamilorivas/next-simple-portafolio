@@ -24,7 +24,8 @@ function Document() {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "icon",
-                        href: "../public/favicon.png"
+                        href: "../public/favicon.png",
+                        legacyBehavior: true
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         content: "Camilo's Portafolio"
