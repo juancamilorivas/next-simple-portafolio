@@ -49,13 +49,13 @@ export const skills = [
 export const experiences = [
   {
     title: "Fronted Developer",
-    description: "API Interaction: Implemented and managed data queries and mutations using GraphQL, ensuring effective communication between the frontend and backend services. Collaboration Tools: Worked in a collaborative environment using Bitbucket for version control, Jira for project management, and Slack for daily communication. Agile Methodologies: Actively participated in Scrum ceremonies and used Kanban for task tracking, which improved team efficiency and productivity. Headless CMS: Developed solutions using builder.io to create flexible and scalable content experiences. Design and Prototyping: Collaborated with designers using Figma, ensuring that designs were faithfully implemented in the frontend development.",
+    description: "Skills: TypeScript · GraphQL · Next.js · Tailwind CSS · Material-UI · Bitbucket · Jira · Slack · Agile Methodologies · Scrum · canban · builder.io · Headless · Figma · Shadcn API Interaction: Implemented and managed data queries and mutations using GraphQL, ensuring effective communication between the frontend and backend services. Collaboration Tools: Worked in a collaborative environment using Bitbucket for version control, Jira for project management, and Slack for daily communication. Agile Methodologies: Actively participated in Scrum ceremonies and used Kanban for task tracking, which improved team efficiency and productivity. Headless CMS: Developed solutions using builder.io to create flexible and scalable content experiences. Design and Prototyping: Collaborated with designers using Figma, ensuring that designs were faithfully implemented in the frontend development.",
     from: 2024,
     to: 2024,
   },
   {
     title: "Fronted Developer",
-    description: "CSS Flexbox y Bootstrap: Designed responsive and modern web interfaces for important clients of the agency. JavaScript y Node.js: Implemented communication with the Meta API. Firebase: Implemented backend services and managed real-time databases, also implemented login functionality. WordPress, Elementor y WPBakery: Created and customized attractive and functional websites. Trello: Effectively coordinated projects and tasks. Microsoft Excel: Analyzed and managed data to improve decision-making.",
+    description: "CSS Flexbox · Bootstrap · JavaScript · Node.js · Firebase · WordPress · Elementor · WPbackery · Trello · Microsoft Excel CSS Flexbox y Bootstrap: Designed responsive and modern web interfaces for important clients of the agency. JavaScript y Node.js: Implemented communication with the Meta API. Firebase: Implemented backend services and managed real-time databases, also implemented login functionality. WordPress, Elementor y WPBakery: Created and customized attractive and functional websites. Trello: Effectively coordinated projects and tasks. Microsoft Excel: Analyzed and managed data to improve decision-making.",
     from: 2023,
     to: 2023,
   },
