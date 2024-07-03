@@ -55,7 +55,7 @@ export const experiences = [
   },
   {
     title: "Fronted Developer",
-    description: "Customer Service: Provided exceptional service by understanding and addressing clients' needs, ensuring satisfaction. Design and Prototyping: Used Figma to create user-friendly and visually appealing interfaces. Frontend Development: Developed dynamic web applications with JavaScript, Vanilla JavaScript, and Bootstrap CSS. Logistics and Operations: Managed LCL shipments and oversaw export and import operations for timely delivery. Web Development: Built and maintained functional and attractive websites using WordPress. Backend and Database Management: Utilized Firebase for backend services and real-time database management.",
+    description: "CSS Flexbox y Bootstrap: Designed responsive and modern web interfaces for important clients of the agency. JavaScript y Node.js: Implemented communication with the Meta API. Firebase: Implemented backend services and managed real-time databases, also implemented login functionality. WordPress, Elementor y WPBakery: Created and customized attractive and functional websites. Trello: Effectively coordinated projects and tasks. Microsoft Excel: Analyzed and managed data to improve decision-making.",
     from: 2023,
     to: 2023,
   },
