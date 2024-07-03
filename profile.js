@@ -48,6 +48,18 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Fronted Developer",
+    description: "API Interaction: Implemented and managed data queries and mutations using GraphQL, ensuring effective communication between the frontend and backend services. Collaboration Tools: Worked in a collaborative environment using Bitbucket for version control, Jira for project management, and Slack for daily communication. Agile Methodologies: Actively participated in Scrum ceremonies and used Kanban for task tracking, which improved team efficiency and productivity. Headless CMS: Developed solutions using builder.io to create flexible and scalable content experiences. Design and Prototyping: Collaborated with designers using Figma, ensuring that designs were faithfully implemented in the frontend development.",
+    from: 2024,
+    to: 2024,
+  },
+  {
+    title: "Fronted Developer",
+    description: "Customer Service: Provided exceptional service by understanding and addressing clients' needs, ensuring satisfaction. Design and Prototyping: Used Figma to create user-friendly and visually appealing interfaces. Frontend Development: Developed dynamic web applications with JavaScript, Vanilla JavaScript, and Bootstrap CSS. Logistics and Operations: Managed LCL shipments and oversaw export and import operations for timely delivery. Web Development: Built and maintained functional and attractive websites using WordPress. Backend and Database Management: Utilized Firebase for backend services and real-time database management.",
+    from: 2023,
+    to: 2023,
+  },
+  {
     title: "Product design - Software developer at casilleropostal.co",
     description:
       "Talk to the customer · Understand what the client needs or requires · Costumer service · LCL · Figma · JavaScript · Yola platform / Layout and HTML · Air freight delivery process from USA/China to Colombia",
