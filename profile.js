@@ -20,6 +20,10 @@ export const skills = [
     percentage: "70",
   },
   {
+    skill: "Express JS",
+    percentage: "70",
+  },
+  {
     skill: "Expreess.js",
     percentage: "70",
   },
@@ -48,8 +52,16 @@ export const skills = [
     percentage: "70",
   },
   {
+    skill: "Elementor",
+    percentage: "70",
+  },
+  {
     skill: "GraphQl",
     percentage: "60",
+  },
+  {
+    skill: "SQL",
+    percentage: "40",
   },
 ];
 
