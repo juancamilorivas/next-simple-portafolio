@@ -16,6 +16,10 @@ export const skills = [
     percentage: "90",
   },
   {
+    skill: "Tailwind",
+    percentage: "90",
+  },
+  {
     skill: "Node.js",
     percentage: "70",
   },
