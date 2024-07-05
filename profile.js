@@ -24,10 +24,6 @@ export const skills = [
     percentage: "70",
   },
   {
-    skill: "Express JS",
-    percentage: "70",
-  },
-  {
     skill: "Expreess.js",
     percentage: "70",
   },
