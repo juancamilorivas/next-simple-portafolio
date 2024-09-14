@@ -11,9 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@next/third-parties": "^14.2.11",
     "bootswatch": "^4.6.0",
     "classnames": "^2.3.1",
-    "next": "^12.1.6",
+    "next": "^14.2.11",
     "nprogress": "^0.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
