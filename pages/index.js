@@ -24,7 +24,7 @@ const Index = () => (
                 this industry, I've honed my analytical thinking and
                 collaboration skills, and I love working with a team
               </p>
-              <a href="https://www.linkedin.com/in/juan-camilo-rivas-molina-a079291b1/">
+              <a id="linkedin-link" href="https://www.linkedin.com/in/juan-camilo-rivas-molina-a079291b1/">
                 <h5 className="font-weight-bold">LinkedIn</h5>
               </a>
             </div>
